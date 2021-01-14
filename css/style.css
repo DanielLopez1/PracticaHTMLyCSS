@@ -9,7 +9,38 @@ html{
 body{
     background-color: gray;
 }
-
-.nav_conteiner {
-    w
+.nav{
+    background-color: darkgrey;
+    color: white;
+}
+.nav_conteiner li{
+    display: inline-block;
+    list-style: none;
+    padding: 2rem 2rem 2rem;
 } 
+main{
+    background-color: white;
+}
+.main_conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+    height: 80vh;
+}
+.div_section{
+    border: 2px black solid;
+    border-radius: 12%;
+    width: 40rem;
+    height: 12rem;
+    text-align: center;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.footer_list li{
+    display: inline-block;
+    list-style: none;
+    padding: 2rem 2rem 2rem;
+}
