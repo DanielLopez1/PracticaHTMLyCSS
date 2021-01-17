@@ -7,14 +7,23 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: gray;
+    background-color: wheat;
+}
+header{
+    background-color: #005EF2;
 }
 .nav{
-    background-color: darkgrey;
+    background-color: #005EF2;
     color: white;
+}
+.nav_figure{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
 }
 .nav_conteiner li{
     display: inline-block;
+    flex-direction: row;
     list-style: none;
     padding: 2rem 2rem 2rem;
 } 
